@@ -1,0 +1,13 @@
+# Ignore files and directories in the root of the repository
+.idea/
+
+# Ignore binary and object files for all projects in the src directory
+/src/**/bin/
+/src/**/obj/
+/src/**/.idea/
+
+# Ignore specific Debug and net7.0 directories in MergeSort project
+/src/**/bin/Debug/
+/src/**/obj/Debug/
+/src/**/obj/net7.0/ref/
+/src/**/obj/net7.0/refint/
